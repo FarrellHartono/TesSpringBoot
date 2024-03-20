@@ -12,7 +12,7 @@ export default function Home() {
     const result = await axios.get("http://localhost:8080/users");
     setUsers(result.data);
   };
-
+  // test
   return (
     <div className="container">
       {/* buat margin top py-4 */}
